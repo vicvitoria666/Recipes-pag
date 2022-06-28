@@ -1,9 +1,9 @@
 import React from "react";
 import Nav from "./Nav";
-import Imagem1 from "../assets/Instagram Ellipse.svg"
-import Imagem2 from "../assets/Twitter ellipse.svg"
-import Imagem3 from "../assets/Facebook Ellipse.svg"
-import Imagem4 from "../assets/Pinterest Ellipse.svg"
+import Imagem1 from "../assets/images/Instagram Ellipse.svg"
+import Imagem2 from "../assets/images/Twitter ellipse.svg"
+import Imagem3 from "../assets/images/Facebook Ellipse.svg"
+import Imagem4 from "../assets/images/Pinterest Ellipse.svg"
 
 
 export default function Footer (){

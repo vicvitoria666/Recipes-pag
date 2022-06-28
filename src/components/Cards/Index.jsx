@@ -7,11 +7,11 @@ export default function Card({Image,ImageDescription, Name, Children}){
             <figure>
             <img src={Image} alt={ImageDescription}/>
             </figure>
-            <aside>
+            <figcaption>
             <h3>{Name}</h3>
             <hr/>
             <p>{Children}</p>
-            </aside>
+            </figcaption>
         </div>
         </>
     )
