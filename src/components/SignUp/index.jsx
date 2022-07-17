@@ -1,15 +1,18 @@
 import React from "react";
-export default function SignUp() {
+import * as S from './styles'
+const SignUp =()=> {
   return (
     <>
-    <form onSubmit={e=>e.preventDefault()}>
+    <S.Form onSubmit={e=>e.preventDefault()}>
+        <S.Content>
+          <S.Title>SUBSCRIBE</S.Title>
+          <S.P>Sign up for newsletter</S.P>
+        </S.Content>
+        <S.Input type="text" placeholder="Your Email"/>
+        <S.Button>SUBMIT</S.Button>
 
-        <h4>SUBSCRIBE</h4>
-        <p>Sign up for newsletter</p>
-        <input type="text" placeholder="Your Email"/>
-        <button>SUBMIT</button>
-
-    </form>
+    </S.Form>
     </>
   );
 }
+export default SignUp

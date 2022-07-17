@@ -12,7 +12,7 @@ export default function Header() {
     return(
         <>
         <ContainerHeader>
-        <img src={RC} alt="Logo"/>
+        <img src={RC}/>
         <h1>RECIPES</h1>
         <Nav/>
         </ContainerHeader>
